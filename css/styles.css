@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLES */
+
+body {
+	background-color: #aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+header {
+	width: 1024px;
+	height: 341px;
+	margin: 0;
+}
+header img {
+	position: absolute;
+	top: 0;
+}
+
+/* Container holding image and text */
+.container2 {
+	position: relative;
+}
+  /* Centered text */
+.centered {
+	font-size: 64px; 
+	color: white;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 200px;
+}
+  /* Nav */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+	padding-right: 100px;
+	padding-left: 80px;
+	margin-right: 40px;
+	margin-left: 40px;
+	border-right: 1px solid;
+	font-size: 18px;
+}
+
+article{
+	width: 1024px;
+	margin:  0  auto;
+}
+article img{
+	float: left;
+	width: 250px;
+	height: 257px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+.clear{
+	clear: both;
+}
+h2{
+	font-size: 36px; 
+	padding-bottom: 10px;
+}
+p{
+	line-height: 24px; 
+	padding-right: 20px;
+}
+.container1{
+	width: 1024px;
+	background-color: #d4e9e7;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-bottom: 60px;
+}
+main{
+	width: 1004px;
+	padding: 10px;
+}
+h3{
+	font-size: 29px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+h4{
+	font-size: 29px;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+div .form h5{
+	padding-top: 10px;
+	font-size: 16px;
+}
+#list li{
+	list-style-type: disc;
+	margin-left: 30px;
+}
+input .form1{
+	width:100%;
+}
+.message input[type=text], select{
+	width: 100%;
+	padding: 40px;
+	margin: 5px 0;
+	display: inline-block;
+	border-style: solid;
+	border-color:#737373;
+	box-sizing: border-box;
+}
+input[type=text], select{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	display: inline-block;
+	border-style: solid;
+	border-color:#bac2c1;
+	box-sizing: border-box;
+}
+div .form{
+	border: 1px;
+	border-style: solid;
+	background-color: #d4e9e7;
+	padding: 30px 10px 10px 10px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+button{
+	  padding:8px;
+	  font-size: 8px;
+}
+footer{
+	  float: right;
+	  margin: 20px 20px;
+	  font-size: 12px;
+}
+
+  
